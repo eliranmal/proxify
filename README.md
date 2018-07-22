@@ -7,12 +7,20 @@
 
 ## overview
 
-// todo
+`async`ify all functions on an object with node-style functions.
 
 
 ## usage
 
-// todo
+```js
+const obj = {
+  foo: (bar, done) => done(null, 'wat'),
+};
+
+const asyncObj = proxify(obj);
+
+const result = await asyncObj.foo(1);
+```
 
 
 
