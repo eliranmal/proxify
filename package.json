@@ -1,6 +1,6 @@
 {
   "name": "@eliranmal/proxify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "callbacks to `async`s, all over the place",
   "main": "./lib/proxify.js",
   "files": [
